@@ -1,3 +1,16 @@
 body{
     background-color: rgb(185, 185, 185);
 }
+
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons{
+    width: 15rem;
+    display: flex;
+    justify-content: end;
+}
