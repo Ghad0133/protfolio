@@ -2,6 +2,9 @@ body{
     background-color: rgb(185, 185, 185);
 }
 
+@media only screen and (max-width: 600px) {
+
+
 .footer{
 
     display: flex;
@@ -40,6 +43,7 @@ body{
 
 .line{
     background-color: black;
+    width: 100%;
 }
 
 .me{
@@ -55,40 +59,94 @@ body{
     text-align: center;
 }
 
-.about{
+.menu-item{
     text-decoration: none;
     list-style-type: none;
     text-align: center;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 50px;
     font-size: 5rem;
-    width: 20rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 30rem;
+    padding:0px;
+    margin: 10px auto;
 }
 
-.contact{
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-    background-color: white;
-    border-radius: 1rem;
-    font-size: 5rem;
-    width: 20rem;
-    margin-left: auto;
-    margin-right: auto;
+.list{
+    padding: 0%;
 }
 
-.mywork{
-    text-decoration: none;
-    list-style-type: none;
-    text-align: center;
-    background-color: white;
-    border-radius: 1rem;
-    font-size: 5rem;
-    width: 20rem;
-    margin-left: auto;
-    margin-right: auto;
 }
 
+@media only screen and (min-width: 599px){
 
+    .footer{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .icons{
+        width: 15rem;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .logo{
+        width: 10rem;
+        display: flex;
+        align-self: flex-start;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    
+    .home{
+        color: rgb(46, 97, 113);
+        font-size: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    
+    .header{
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .line{
+        background-color: black;
+        width: 100%;
+    }
+    
+    .me{
+        display: block;
+        width: 30rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Jehad{
+        color: rgb(46, 97, 113);
+        font-size: 8rem;
+        text-align: center;
+    }
+    
+    .menu-item{
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        background-color: white;
+        border-radius: 50px;
+        font-size: 5rem;
+        width: 30rem;
+        padding:0px;
+        margin: 10px auto;
+    }
+    
+    .list{
+        padding: 0%;
+    }
+
+}
