@@ -2,10 +2,15 @@ body{
     background-color: rgb(185, 185, 185);
 }
 
+:root {
+    --mdc-theme-primary: rgb(46, 97, 113);
+    --mdc-theme-secondary:  rgb(185, 185, 185);
+}
+
 @media only screen and (max-width: 600px) {
 
     body{
-        background-color: rgb(185, 185, 185);
+        background-color: var(--mdc-theme-secondary);
     }
 
 .footer{
@@ -31,7 +36,7 @@ body{
 
 
 .home{
-    color: rgb(46, 97, 113);
+    color: var(--mdc-theme-primary);
     font-size: 5rem;
     margin-left: auto;
     margin-right: auto;
@@ -57,7 +62,7 @@ body{
 }
 
 .Jehad{
-    color: rgb(46, 97, 113);
+    color: var(--mdc-theme-primary);
     font-size: 8rem;
     text-align: center;
 }
@@ -131,9 +136,35 @@ body{
     border-radius: 100px;
 }
 
+.meabout{
+    display: none;
+}
+
+.desktoplist{
+    display: none;
+}
+
+.topline{
+    display: none;
+}
+
+.mecontact{
+    width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+    display: none;
+}
 }
 
 @media only screen and (min-width: 599px){
+
+    body{
+        background-color: var(--mdc-theme-secondary);
+    }
 
 
     .footer{
@@ -204,6 +235,107 @@ body{
     
     .list{
         padding: 0%;
+    }
+
+    .meabout{
+        width: 35rem;
+    }
+
+    .resume{
+        width: 40rem;
+    }
+
+    .meresume{
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .touch{
+        background-color: white;
+        text-align: center;
+        font-size: 2rem;
+        color: var(--mdc-theme-primary);
+    }
+
+    .desktoplist{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .desktopabout{
+        text-decoration: none;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5rem;
+        width: 8rem;
+        text-align: center;
+    }
+
+    .desktopcontact{
+        text-decoration: none;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5rem;
+        width: 8rem;
+        text-align: center;
+    }
+
+    .desktopwork{
+        text-decoration: none;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 2.5rem;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .mecontact{
+        width: 30rem;
+        margin: 5rem;
+        
+    }
+
+   .contactname{
+    padding-top: 8rem;
+    
+   }
+
+   .contactemail{
+    padding-top: 5rem;
+    
+   }
+
+   .contactphone{
+    padding-top: 5rem;
+    
+   }
+
+    .contactinfo{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+        width: 35rem;
+        margin: 5rem;
+    }
+
+    .us{
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        font-size: 2rem;
+        margin: auto;
     }
 
 }
