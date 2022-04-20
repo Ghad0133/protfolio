@@ -94,6 +94,7 @@ body{
     background-color: white;
     text-align: center;
     font-size: 2rem;
+    color: var(--mdc-theme-primary);
 }
 
 .form{
@@ -170,6 +171,10 @@ body{
 .dtdoom{
     display: none
 }
+
+.menu{
+    width: 7rem;
+}
 }
 
 @media only screen and (min-width: 599px){
@@ -243,11 +248,13 @@ body{
         width: 30rem;
         padding:0px;
         margin: 10px auto;
+        color: var(--mdc-theme-primary);
     }
     
     .list{
         padding: 0%;
         text-decoration: none;
+        color: var(--mdc-theme-primary);
     }
 
 
@@ -278,8 +285,8 @@ body{
         flex-direction: row;
         justify-content: space-evenly;
         margin-right: auto;
-        margin-left: auto;
-        text-decoration: dotted;
+        margin-left: atuo;
+       
     }
 
     .desktopabout{
@@ -393,5 +400,13 @@ body{
 
     .info{
         font-size: 2rem;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    ul {
+        text-decoration: none;
     }
 }
