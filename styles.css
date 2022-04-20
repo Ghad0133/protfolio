@@ -239,8 +239,7 @@ body{
     }
     
     .menu-item{
-        text-decoration: none;
-        list-style-type: none;
+        list-style: none;
         text-align: center;
         background-color: white;
         border-radius: 50px;
@@ -252,10 +251,16 @@ body{
     }
     
     .list{
+        list-style: none;
         padding: 0%;
+        color: var(--mdc-theme-primary);
+    }
+
+    a:link{
         text-decoration: none;
         color: var(--mdc-theme-primary);
     }
+
 
 
     .meabout{
@@ -290,7 +295,7 @@ body{
     }
 
     .desktopabout{
-        text-decoration: none;
+        list-style: none;
         background-color: white;
         border-radius: 20px;
         font-size: 2.5rem;
@@ -299,7 +304,7 @@ body{
     }
 
     .desktopcontact{
-        text-decoration: none;
+        list-style: none;
         background-color: white;
         border-radius: 20px;
         font-size: 2.5rem;
@@ -308,12 +313,13 @@ body{
     }
 
     .desktopwork{
-        text-decoration: none;
+        list-style: none;
         background-color: white;
         border-radius: 20px;
         font-size: 2.5rem;
         width: 10rem;
         text-align: center;
+        
     }
 
     .mecontact{
