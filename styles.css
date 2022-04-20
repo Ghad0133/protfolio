@@ -158,6 +158,18 @@ body{
 .info{
     display: none;
 }
+
+.dtboot{
+    display: none;
+}
+
+.dtjudo{
+    display: none;
+}
+
+.dtdoom{
+    display: none
+}
 }
 
 @media only screen and (min-width: 599px){
@@ -235,7 +247,9 @@ body{
     
     .list{
         padding: 0%;
+        text-decoration: none;
     }
+
 
     .meabout{
         width: 35rem;
@@ -265,12 +279,13 @@ body{
         justify-content: space-evenly;
         margin-right: auto;
         margin-left: auto;
+        text-decoration: dotted;
     }
 
     .desktopabout{
         text-decoration: none;
         background-color: white;
-        border-radius: 10px;
+        border-radius: 20px;
         font-size: 2.5rem;
         width: 8rem;
         text-align: center;
@@ -279,7 +294,7 @@ body{
     .desktopcontact{
         text-decoration: none;
         background-color: white;
-        border-radius: 10px;
+        border-radius: 20px;
         font-size: 2.5rem;
         width: 8rem;
         text-align: center;
@@ -288,7 +303,7 @@ body{
     .desktopwork{
         text-decoration: none;
         background-color: white;
-        border-radius: 10px;
+        border-radius: 20px;
         font-size: 2.5rem;
         width: 10rem;
         text-align: center;
@@ -338,4 +353,45 @@ body{
         margin: auto;
     }
 
+    .projects{
+       display: flex;
+       justify-content: space-evenly;
+    }
+
+    .desktopbutton{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .dtdoom{
+       border-radius: 20px;
+       font-size: 2rem;
+       
+    }
+
+    .dtjudo{
+        border-radius: 20px;
+        font-size: 2rem;
+    }
+
+    .dtboot{
+        border-radius: 20px;
+        font-size: 2rem;
+    }
+
+    .judo{
+        display: none;
+    }
+
+    .doom{
+        display: none;
+    }
+
+    .boot{
+        display: none;
+    }
+
+    .info{
+        font-size: 2rem;
+    }
 }
