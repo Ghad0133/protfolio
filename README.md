@@ -2,7 +2,7 @@
 
 ## Background (How you created your we protoflio)
 
- 
+ The way I made my protfolio is from scratch. I was intimated by the 11000 lines of code I would have to edit in bootstrap. I wish I could have combined 2 ways to website make my website better.
 
 ### challenges faced 
 
