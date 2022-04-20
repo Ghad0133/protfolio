@@ -18,7 +18,7 @@ your text
 
 ## what i learned 
 
-your text 
+I honestly did 
 
 ## assets 
 
